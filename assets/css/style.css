@@ -27,15 +27,18 @@
   overflow: hidden;
   float: right;
   margin-right: 160px;
-  border-right: 1px solid #bbb;
+  
 }
 
-.li {
-    display: inline;
-    
+li {
+    float: right;
 }
 
-
+li a{
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    display: block;
+}
 
 .me{
     height: 175px;
