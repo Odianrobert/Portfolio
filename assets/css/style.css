@@ -122,7 +122,8 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical; 
+    
   }
   
   
@@ -141,8 +142,18 @@ input[type=text], select, textarea {
   }
   
   
-  .container {
+  .container2 {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 20px;
+    color: grey;
+    width: 940px;
+    margin-left: 276px;
+    margin-bottom: -500px;
+  }
+
+  .hr2{
+    width: 954px;
+    float: left;
+    margin-left: 290px; 
   }
