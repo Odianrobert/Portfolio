@@ -82,7 +82,7 @@ hr{
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background-color: #efefef;
+    background-image: url("../images/so-white.png");
 }
 
 .container, .indextext, .me{
