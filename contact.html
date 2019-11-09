@@ -8,29 +8,59 @@
     <link href="assets\css\style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="body">
-    <section>
-        <h1 class="h1box">Robert Odian</h1>
-    </section> 
+<header>
+    <div class="header">
+     <section>
+         <h1 class="h1box">Robert Odian</h1>
+         <div>
+             <ul class="ul">
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="#">About</a></li>
+             </ul>
+     </section>
+ </header>
 
-    <section class="apc">
-        <h4><a href="index.html">About</a></h4>
-        <h4><a href="portfolio.html">Portfolio</a></h4>
-        <h4><a href="#">Contact</a></h4>
-    </section>
 
+<body>
     <section>
-        <h1>Contact</h1>
-            <div>
-        <p1>Name</p1>
-            <div>    
-        <p2>Email</p2>
-            <div>
-        <p3>Message</p3>
-            <div>
-        <p4>Submit</p4>
-            <div>
-    </section>
+        <h1 class="container">Contact</h1>
+     
+     <section><hr>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John Smith">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+     </section>
+     
+     </section>
+  
+        <div>
+     <hr class="tealline"> 
+
+<footer class="footer">
+        
+</footer>   
+         </div>
 
 <body>
     
