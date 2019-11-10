@@ -159,13 +159,54 @@ input[type=text], select, textarea {
   }
 
   .box{
-      height: 430px;
-      width: 330px;
+    height: 430px;
+    width: 330px;
   }
 
   img{
-      height: 125px;
-      width: 125px;
-      padding: 3px;
+    height: 125px;
+    clear: both;
+    width: 125px;
+    padding: 3px;
 
+  }
+
+  .hangman{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    text-align: center;
+    font-size: small;
+  }
+
+  .rpg{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    text-align: center;
+    font-size: small;
+  }
+
+  .trivia{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    text-align: center;
+    font-size: small;
+  }
+
+  .rutgers{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    text-align: center;
+    font-size: small;
+  }
+
+  .rock{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    text-align: center;
+    font-size: small;
   }
