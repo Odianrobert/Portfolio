@@ -149,11 +149,23 @@ input[type=text], select, textarea {
     color: grey;
     width: 940px;
     margin-left: 276px;
-    margin-bottom: -500px;
+    margin-bottom: -490px;
   }
 
   .hr2{
     width: 954px;
     float: left;
     margin-left: 290px; 
+  }
+
+  .box{
+      height: 430px;
+      width: 330px;
+  }
+
+  img{
+      height: 125px;
+      width: 125px;
+      padding: 3px;
+
   }
